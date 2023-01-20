@@ -554,6 +554,10 @@ span{
     height: 7rem;
     margin: 0rem 3rem;
 }
+header{
+    
+    height: 45vh;
+}
 
 .hfont{
     font-size: 1.2rem !important;
