@@ -156,7 +156,7 @@ Footer{
     display: flex;
     flex-direction: column;
     align-items:flex-start;
-    padding: 0 5rem;
+    padding: 0 5rem 0 0;
     justify-content: center;
     align-items: center;
 }
@@ -164,7 +164,7 @@ Footer{
 .li{
     font-size: 1.5rem;
     list-style: none;
-    margin-top: 2rem;
+    margin-top: 1rem;
     
 }
 .logo2 img{
@@ -218,7 +218,16 @@ li:hover{
    filter: invert(31%) sepia(57%) saturate(2865%) hue-rotate(360deg) brightness(100%) contrast(109%);
  
 }
+
+
+.burger{
+    display: none;
+}
+
    
+
+
+
 
 /* Main */
 
@@ -396,6 +405,9 @@ h1{
         display: none;
     }
 
+    .burger{
+        display: block;
+    }
     .header_nav_list{
         display: none;
     }
@@ -470,8 +482,8 @@ h1{
         grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
         justify-content: center;
         align-items: center;
-        grid-gap: 3rem;
         font-size: 1.8rem;
+        grid-gap: 5rem;
         
     }
 
@@ -487,13 +499,28 @@ h1{
   @media only screen and (max-width: 580px) {
 
     .hfont{
-        font-size: 1.5rem !important;
-    
+        font-size: 1.5rem !important;    
     }
     
+    .s1, .s2{
+        
+        text-align: center !important;
+    }
+    
+    .logo2 img{
+        height: 7rem;
+        width: 7rem;
+        
+    }
+    .logo2 {
+
+        border-bottom: 1px solid #ffffff;
+        padding: 0 0 6rem 0;
+    }
+
     header{
         background-color:#161516 ;
-        height: 55vh;
+        height: 65vh;
     }
  
  
@@ -518,8 +545,12 @@ h1{
     align-items: center;
     justify-content: center;
     height: fit-content;
-    padding: 5rem 8rem;
+    padding: 0 8rem 5rem 8rem;
     grid-gap: 5rem;
+}
+
+.slideshow{
+    margin-bottom: 5rem;
 }
 
 span{
@@ -556,7 +587,7 @@ span{
 }
 header{
     
-    height: 45vh;
+    height: 55vh;
 }
 
 .hfont{
