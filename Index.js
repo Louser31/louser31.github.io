@@ -85,3 +85,11 @@ TxtType.prototype.tick = function() {
 
 };
 
+
+function ham(){
+
+  var element = document.getElementById("ham");
+   element.classList.toggle("ham-menu");
+
+
+}

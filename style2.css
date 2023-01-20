@@ -162,6 +162,7 @@
   position: fixed;
   background-color: #161516;
   width: 350px;
+  display: block !important;
   height: 100%;
   z-index: 999;
   right: 0;
@@ -213,25 +214,31 @@
  animation: jump 1s 1;
 }
 
-
+.ham img:active{
+  animation: jump 1s 1;
+ }
+ 
 
 
 
 
 .ham-menu{
   animation: ham 1s 1;
+  
+  border-left: 1px solid #ffffff;
   /* animation-direction: reverse; */
 }
 
 
 @keyframes ham {
-  0%   {
+ from {
     
      right: -20%;
      
   }
-  
-  100% {
+
+
+  to {
     right: 0;
   }
 }
@@ -239,7 +246,7 @@
 
 
 @keyframes jump {
-  from  {transform: scale(0.8)
+  from  {transform: scale(0.5)
   }
  
   to {transform:scale(1.2)
