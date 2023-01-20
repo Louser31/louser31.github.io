@@ -455,6 +455,15 @@ h1{
         
     }
 
+    .carousel {
+       
+        height: 35vh !important;
+      
+      }
+    .bg_slide{
+        height: 50% !important;
+    }
+
     .services{
     
         display: grid;
@@ -481,12 +490,9 @@ h1{
         font-size: 1.5rem !important;
     
     }
-
-    header{
-        
-        height: 55vh;
-    }
-
+    
+ 
+ 
     .img img{
         height: 300px;
         
@@ -523,14 +529,21 @@ span{
     align-items: center;
 
 }
+.carousel {
+       
+    height: 30vh !important;
+  
+  }
+
+  .bg_slide{
+    height: 40% !important;
+}
+
   }
 
   @media only screen and (max-width: 400px) {
 
-    header{
-        
-        height: 50vh;
-    }
+
 
     .header_nav_logo img
 {
@@ -570,5 +583,6 @@ footer{
     width: 8rem;
     
 }
+
 
   }
