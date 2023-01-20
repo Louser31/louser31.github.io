@@ -574,6 +574,10 @@ span{
     height: 40% !important;
 }
 
+footer{
+    padding: 2rem;
+}
+
   }
 
   @media only screen and (max-width: 400px) {
@@ -596,9 +600,7 @@ header{
 }
 
 
-footer{
-    padding: 1rem 1rem 1rem 3rem;
-}
+
 
 .bg_left{
     padding: 1rem 0 0 0;
