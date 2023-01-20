@@ -65,10 +65,7 @@
     
 
 
-    body {
-  position: relative;
-  height: 100vh;
-}
+
         
 .wrapper {
   display: inline-block;
@@ -157,7 +154,7 @@
 
 }
 .ham img{
- width: 8rem;
+ width: 7rem;
  padding: 2.2rem;
 }
 

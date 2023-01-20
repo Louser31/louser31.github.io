@@ -577,6 +577,13 @@ span{
 footer{
     padding: 2rem;
 }
+.header_nav_logo img
+{
+    height: 6.5rem;
+}
+.header_nav_logo{
+    margin-top: 2rem;
+}
 
   }
 
